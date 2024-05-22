@@ -1,0 +1,16 @@
+my_string = input("Назовите Ваше любимое время года: ")
+length_of_text = len(my_string)
+print('В этом слове ', length_of_text, ' букв')
+
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(' ',''))
+print(my_string[0])
+print(my_string[-1])
+
+new_my_string = ("Назовите Ваше любимое время года:")
+print(new_my_string.upper())
+print(new_my_string.lower())
+print(new_my_string.replace(' ',''))
+print(new_my_string[0])
+print(new_my_string[-1])
